@@ -6,29 +6,29 @@
 
 # Maven
 ```xml
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
-
-    <dependency>
-	    <groupId>com.github.skateboard</groupId>
-	    <artifactId>useragents</artifactId>
-	    <version>Tag</version>
-	</dependency>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+   
+<dependency>
+    <groupId>com.github.skateboard</groupId>
+    <artifactId>useragents</artifactId>
+    <version>Tag</version>
+</dependency>
 ```
 
 # Gradle
-```gradle
-	repositories {
-		maven { url 'https://jitpack.io' }
-	}
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
 
-    dependencies {
-		implementation 'com.github.skateboard:discord-auth:Tag'
-	}
+dependencies {
+    implementation 'com.github.skateboard:discord-auth:Tag'
+}
 ```
 
 # Credit
