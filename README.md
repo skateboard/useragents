@@ -36,7 +36,12 @@ Big thanks to [uarand](https://github.com/corpix/uarand) for the useragents list
 
 # Usage
 ```java
-    public static void main(String[] args) {
-        System.out.println(UserAgents.randomUserAgent());
+    import me.brennan.useragents.UserAgents;
+    
+    public class Test {
+        public static void main(String[] args) {
+            System.out.println(UserAgents.randomUserAgent());
+        }
     }
+
 ```
