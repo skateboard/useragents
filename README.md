@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.skateboard:discord-auth:Tag'
+    implementation 'com.github.skateboard:useragents:Tag'
 }
 ```
 
